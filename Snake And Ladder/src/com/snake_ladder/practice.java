@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class practice {
   public static final  int TARGET=100;
     public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        System.out.print("Enter your name ");
-//        String m=sc.nextLine();
-//        System.out.println("Lets Start the Snake & Ladder game");
-//        System.out.println();
+       Scanner sc = new Scanner(System.in);
+       System.out.print("Enter your name ");
+       String m=sc.nextLine();
+       System.out.println("Lets Start the Snake & Ladder game");
+       System.out.println();
        Random r = new Random();
         Random f=new Random();
         //System.out.println(check);
